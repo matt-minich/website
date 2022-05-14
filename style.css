@@ -206,26 +206,50 @@ mywork-col:hover{
   bottom: 49%;
   opacity: 1;
 }
-/*---last ---*/
-.last{
+/*---third---*/
+.third{
   width:80%;
   margin:auto; 
 }
-.last-col{
+.third-col{
   flex-basis: 31%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align:left;
 }
-.last-col img{
+.third-col img{
   width: 100%;
   border-radius: 10px;
 }
-.last-col p {
+.third-col p {
   padding: 0;
 }
-.last-col h3 {
+.third-col h3 {
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left;
+}
+
+/*---fourth---*/
+.fourth{
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.fourth-col{
+  flex-basis:44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 25px; 
+  cursor:pointer;
+  display: flex;
+}
+.fourth-col img{
+  height: 40px;
+  margin-left:5px;
+  margin-right: 30px;
+  border-radius: 50%;
 }
